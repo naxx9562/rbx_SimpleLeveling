@@ -1,0 +1,27 @@
+{
+  "name": "RojoTest",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "TalentSystem": {
+        "Remotes": {
+          "$className": "Folder",
+          "TalentSync": {"$className": "RemoteEvent"},
+          "TalentPurchase": {"$className": "RemoteEvent"}
+        },
+        "$path": "src/ReplicatedStorage/TalentSystem"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts"
+      }
+    }
+  }
+}
